@@ -1,0 +1,11 @@
+# FastAPI 后端依赖
+# ── 新增（API 层） ──
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+PyJWT>=2.8.0
+
+# ── 已有（modules/ 需要，列出确保 Docker 安装） ──
+lunar_python
+requests>=2.31.0
+python-dotenv>=1.0.0
+scikit-learn>=1.4.0
