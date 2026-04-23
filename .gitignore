@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.so
+
+# Environment
+.env
+.env.*
+venv/
+.venv/
+
+# Database (will be created at runtime)
+*.db
+*.db-journal
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files / unnecessary
+*.jpg
+*.jpeg
+*.png
+*.gif
+node_modules/
+screenshots/
+output/
+*.txt
+!data/books/*.txt
+!api/requirements.txt
+
+# Docker
+docker-compose.yml
+
+# Misc
+*.p12
+*.pem
+*.cer
+*.mobileprovision
+repo_paths.txt
+repo_tree.json
+skills/
+skills-lock.json
+y/
+pic/
+pages/
+flutter/
+flutter-new/
+flutter_app/
+*.iml
